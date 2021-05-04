@@ -13,3 +13,12 @@ Including a partial in EJS is quite straightforward. You use <%- include( PARTIA
 
 EJS partials work like EJS layouts too in creating a single fix content on a web page.
 
+### How to use
+In the files you want to use this element you add it like this:
+
+```ejs
+<%- include( PARTIAL_FILE ) %>
+```
+
+### Why use partials
+using partials makes it easier to track and modify your elements making sure they're still the same across all your pages.
